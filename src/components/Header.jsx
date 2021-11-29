@@ -15,6 +15,7 @@ export default class Header extends Component {
       toggle: !this.state.toggle,
     });
   };
+
   render() {
     const { toggle } = this.state;
     const { cart } = this.context;
